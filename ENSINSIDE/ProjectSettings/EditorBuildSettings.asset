@@ -38,4 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RoomProgramScene.unity
     guid: 0c7c285333b44dd46981054bec321e99
+  - enabled: 1
+    path: Assets/Scenes/JeuIntro#1.unity
+    guid: c6cc49bf6a0fbdf4a87e9df84edced55
   m_configObjects: {}

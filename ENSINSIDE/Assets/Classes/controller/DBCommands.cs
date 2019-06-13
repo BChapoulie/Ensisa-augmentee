@@ -15,12 +15,12 @@ public class DBCommands
 
     // Use this for initialization
     void Start() {
-        connection = "URI=file:" + Application.dataPath + "/" + "db7.db";
+        connection = "URI=file:" + Application.persistentDataPath + "/" + "db7.db";
         dbcon = new SqliteConnection(connection);
     }
 
     public static void OpenDBConnection() {
-        connection = "URI=file:" + Application.dataPath + "/" + "db7.db";
+        connection = "URI=file:" + Application.persistentDataPath + "/" + "db7.db";
         dbcon = new SqliteConnection(connection);
         dbcon.Open();
     }

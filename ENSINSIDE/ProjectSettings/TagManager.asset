@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - changetext1
+  - vote2
+  - portal_bl
+  - vote1
+  - BigJump
+  - changetext3
+  - changetext2
+  - changetext-1
+  - ded
+  - pushBack
   layers:
   - Default
   - TransparentFX
@@ -13,7 +23,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - ground
   - 
   - 
   - 
